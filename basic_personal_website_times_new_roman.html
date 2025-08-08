@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jacob Kallmann</title>
+  <style>
+    :root {
+      --max: 760px;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #000000;
+      font-family: "Times New Roman", Times, serif;
+      line-height: 1.4;
+    }
+    header, main, footer {
+      width: 100%;
+      display: block;
+    }
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 24px 16px;
+    }
+    h1, h2, h3 {
+      font-weight: 700;
+      margin: 0 0 8px 0;
+    }
+    h1 { font-size: 32px; }
+    h2 { font-size: 22px; margin-top: 24px; }
+    p { margin: 0 0 12px 0; }
+    ul { margin: 8px 0 16px 18px; }
+    a { color: #000; text-decoration: underline; }
+    hr { border: none; border-top: 1px solid #000; margin: 16px 0; }
+    footer { border-top: 1px solid #000; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Jacob Kallmann</h1>
+      <p>760 567 5836 | <a href="mailto:jacobkallmann@gmail.com">jacobkallmann@gmail.com</a></p>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h2>Education</h2>
+      <p><strong>Economics student</strong> – College of the Desert, Class of 2027</p>
+      <p><strong>High school diploma</strong> – Palm Desert High School, Class of 2023</p>
+      <p><strong>Technical skills:</strong> Microsoft Office (Word, Excel, PowerPoint)</p>
+
+      <h2>Professional Experience</h2>
+      <p><strong>The Reserve Club – Luxury Country Club</strong> | Indian Wells, CA<br>
+      <em>Outside Service</em> | November 2023 – June 2025</p>
+      <ul>
+        <li>Prepare golf carts, driving range, and outdoor facilities daily, ensuring club operations run smoothly.</li>
+        <li>Deliver top-tier customer service, fostering strong relationships with hundreds of club members.</li>
+        <li>Work efficiently in a small team of eight, maintaining productivity and positive staff relationships.</li>
+      </ul>
+
+      <p><strong>Hallwood Media – Record Label</strong> | Los Angeles, CA<br>
+      <em>Intern</em> | June 2025 – August 2025</p>
+      <ul>
+        <li>Scouted and helped ink the first ever AI music designer record deal in the industry.</li>
+        <li>Assistant to the head of A&R.</li>
+        <li>Scouted potential clients, co-managed artists, and developed marketing strategies for high-priority clients.</li>
+      </ul>
+
+      <h2>Leadership & Extracurricular Activities</h2>
+      <p><strong>Palm Desert Aztecs Varsity Golf</strong> – Palm Desert High School | 2022, 2023</p>
+      <ul>
+        <li>Desert Empire League Champion – Won the final tournament of the season by five strokes, finishing -3 (69, 72) over two days against a competitive field.</li>
+        <li>Improved scoring average from 93.2 as a junior (2022) to 78.38 as a senior (2023), a 14.82 stroke improvement in one season.</li>
+        <li>Achieved a competitive +1 handicap within two years of starting golf, demonstrating rapid skill progression and commitment.</li>
+      </ul>
+
+      <h2>Skills & Interests</h2>
+      <ul>
+        <li><strong>Finance and investing:</strong> Passionate about financial markets and business history. Analytical top-down approach to decision making.</li>
+        <li><strong>Communication skills:</strong> Strong interpersonal, conversational, and relationship-building skills. Highly inquisitive with strong problem-solving abilities.</li>
+        <li><strong>Sales:</strong> Experienced in deals, negotiation, and sales.</li>
+      </ul>
+
+      <hr />
+      <p>Last updated: August 8, 2025</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>© <span id="y"></span> Jacob Kallmann</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
